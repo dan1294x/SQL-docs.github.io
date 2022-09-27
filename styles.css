@@ -1,0 +1,78 @@
+html, body {
+    font-family:'Open Sans', Arial, sans-serif;
+    min-width: 290px;
+    color: #E8eee6;
+    background-color: #145369;
+    line-height: 1.5;
+}
+
+nav {
+  display: block;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  border-right: solid 3px gray;
+}
+
+@media (max-width: 100px) {
+  #nav-bar {
+    overflow: hidden;
+  }
+}
+
+main {
+  display: block;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
+header {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #c5fab7;
+  margin-top: 20px;
+}
+
+#navbar header {
+  text-align: center;
+  margin-top: 25px;
+}
+
+#navbar li {
+  margin-top: 30px;
+  border-bottom: solid 1px gray;
+  list-style-type: none;
+  padding: 14px;
+  font-size: 1.3rem;
+  color: #E8eee6;
+}
+#navbar li a:visited {
+  color: #E8eee6;
+}
+a {
+  text-decoration: none;
+}
+code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    color: #041014;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
